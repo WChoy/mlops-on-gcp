@@ -4,4 +4,4 @@ This directory includes instructions of how to build MLOps environments on Googl
 technology suites.
 
 1. [MLOps with Kubeflow Pipelines (KFP) and ML Metadata (MLMD)](mlops-kfp-mlmd).
-2. [MLOps with Cloud Composer and MLflow](mlops-composer-mlflow).
+2. [MLOps with Cloud Composer and MLflow](mlops-composer-mlflow)..
