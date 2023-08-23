@@ -20,3 +20,12 @@ This section compiles  samples demonstrating design and code patterns for a vari
 
 WCHOY QUIKLAB
 Aug 22 @9:31PM EST.
+
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/myimage', '.']
+images: ['gcr.io/$PROJECT_ID/myimage']
+
+Already have image (with digest): gcr.io/cloud-builders/docker
+invalid argument "gcr.io/qwiklabs-gcp-03-b9322d5eece0/lab-03-tfx-image:" for "-t, --tag" flag: invalid reference format
+See 'docker build --help'.
